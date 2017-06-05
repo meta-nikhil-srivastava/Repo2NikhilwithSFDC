@@ -1,0 +1,5 @@
+Hi,
+
+{!Student__c.First_Name__c} {!Student__c.LastName__c} your details have been updated .
+
+Kindly check your details.

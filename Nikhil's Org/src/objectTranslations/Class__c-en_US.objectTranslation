@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Class</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Classes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Board --></label>
+        <name>Board__c</name>
+        <picklistValues>
+            <masterLabel>Bihar Board</masterLabel>
+            <translation><!-- Bihar Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CBSE Board</masterLabel>
+            <translation><!-- CBSE Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rajasthan Board</masterLabel>
+            <translation><!-- Rajasthan Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U. P Board</masterLabel>
+            <translation><!-- U. P Board --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ClassTeacher --></label>
+        <name>ClassTeacher__c</name>
+        <relationshipLabel><!-- Classes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Detailed Description --></label>
+        <name>Detailed_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee --></label>
+        <name>Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- MaxSize --></label>
+        <name>MaxSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- MyCount --></label>
+        <name>MyCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Students --></label>
+        <name>Number_Of_Students__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

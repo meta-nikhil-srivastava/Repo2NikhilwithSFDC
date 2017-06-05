@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Revenue --></label>
+        <name>Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Card number --></label>
+        <name>Credit_Card_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mix Pct --></label>
+        <name>Mix_Pct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple of 5 --></label>
+        <name>Multiple_of_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekday --></label>
+        <name>Weekday__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account number is not a number --></errorMessage>
+        <name>Account_number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a valid Credit card number --></errorMessage>
+        <name>Credit_Card_Number_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Discount percent within 0 to 100% --></errorMessage>
+        <name>Mix_Pct_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Number 
+Please Enter Multiples of 5 --></errorMessage>
+        <name>Multiple_of_5_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the blank section --></errorMessage>
+        <name>Not_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid USA Postal code --></errorMessage>
+        <name>Postal_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date must be a weekday --></errorMessage>
+        <name>Weekday_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

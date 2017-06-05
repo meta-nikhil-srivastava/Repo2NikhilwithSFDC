@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Test Objects for Assignment 2</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <description>Account Number</description>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Annual_Revenue__c</fullName>
+        <description>Annual Revenue</description>
+        <externalId>false</externalId>
+        <label>Annual Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <picklist>
+            <picklistValues>
+                <fullName>France</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>India</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>USA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Card_number__c</fullName>
+        <description>Credit Card number</description>
+        <externalId>false</externalId>
+        <label>Credit Card number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <description>Email</description>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mix_Pct__c</fullName>
+        <description>0 - 100 %</description>
+        <externalId>false</externalId>
+        <label>Mix Pct</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Multiple_of_5__c</fullName>
+        <description>Multiple of 5</description>
+        <externalId>false</externalId>
+        <label>Multiple of 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Postal_Code__c</fullName>
+        <description>Postal Code</description>
+        <externalId>false</externalId>
+        <label>Postal Code</label>
+        <length>16</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Weekday__c</fullName>
+        <description>Weekday</description>
+        <externalId>false</externalId>
+        <label>Weekday</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Test Object</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Test Object Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Test Objects</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Account_number_Validation</fullName>
+        <active>true</active>
+        <description>Account number Validation</description>
+        <errorConditionFormula>NOT(ISNUMBER (Account_Number__c ))</errorConditionFormula>
+        <errorDisplayField>Account_Number__c</errorDisplayField>
+        <errorMessage>Account number is not a number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Credit_Card_Number_validation</fullName>
+        <active>true</active>
+        <description>Credit Card Number validation</description>
+        <errorConditionFormula>NOT( 
+OR( 
+ REGEX( Credit_Card_number__c , &quot;[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}&quot;), 
+REGEX( Credit_Card_number__c , &quot;[0-9]{16}&quot;) 
+
+) 
+)</errorConditionFormula>
+        <errorDisplayField>Credit_Card_number__c</errorDisplayField>
+        <errorMessage>Enter a valid Credit card number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mix_Pct_Validation</fullName>
+        <active>true</active>
+        <description>Mix Pct  Validations</description>
+        <errorConditionFormula>NOT(Mix_Pct__c  &gt; 0.00  &amp;&amp;  Mix_Pct__c  &lt; 100.00)</errorConditionFormula>
+        <errorDisplayField>Mix_Pct__c</errorDisplayField>
+        <errorMessage>Discount percent within 0 to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Multiple_of_5_validation</fullName>
+        <active>true</active>
+        <description>Multiple of 5 validation</description>
+        <errorConditionFormula>MOD(Multiple_of_5__c,5) &lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>Multiple_of_5__c</errorDisplayField>
+        <errorMessage>Invalid Number 
+Please Enter Multiples of 5</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Not_Blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( Account_Number__c ) ||  ISBLANK( Mix_Pct__c ) ||  ISBLANK( Credit_Card_number__c ) || ISBLANK( Multiple_of_5__c )</errorConditionFormula>
+        <errorMessage>Please fill the blank section</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Postal_validation</fullName>
+        <active>true</active>
+        <description>Postal validation</description>
+        <errorConditionFormula>AND( 
+OR( ISPICKVAL(Country__c,&quot;USA&quot;)), 
+NOT(REGEX( Postal_Code__c , &quot;\\d{5}(-\\d{4})?&quot;)),
+NOT(REGEX( Postal_Code__c ,  &quot;[0-9]{5}&quot;)) 
+)</errorConditionFormula>
+        <errorMessage>Invalid USA Postal code</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Weekday_validation</fullName>
+        <active>true</active>
+        <description>Weekday validation</description>
+        <errorConditionFormula>CASE(MOD(  Weekday__c  - DATE(1900, 1, 7), 7),
+0, 0,
+6, 0,
+1) = 0</errorConditionFormula>
+        <errorDisplayField>Weekday__c</errorDisplayField>
+        <errorMessage>Date must be a weekday</errorMessage>
+    </validationRules>
+</CustomObject>

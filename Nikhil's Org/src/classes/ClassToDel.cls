@@ -12,5 +12,9 @@ public with sharing class ClassToDel {
 			system.debug('Line 2 by U2');    
 			
 		}
+		
+		public static void M2U1(){
+		
+		}
     
 }

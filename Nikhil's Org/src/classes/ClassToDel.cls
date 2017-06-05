@@ -14,7 +14,6 @@ public with sharing class ClassToDel {
 		}
 		
 		public static void M2U2(){
-			
 		
 		}
 		

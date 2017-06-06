@@ -14,11 +14,11 @@ public with sharing class ClassToDel {
 		}
 		
 		public static void M2U2(){
+		system.debug('Letscheck');   
+		} 
 		
-		}
-		
-		public static void M3U2(){
-			
+		public static void M3U2(){  
+			 
 			
 		}
 		

@@ -15,7 +15,8 @@ public with sharing class ClassToDel {
 		
 		public static void M2U2(){
 		system.debug('Letscheck'); 
-		system.debug('Commit1 @Anurag');   
+		system.debug('Commit12 @Anurag');   
+		system.debug('Letscheck');  
 		} 
 		
 		public static void M3U2(){  

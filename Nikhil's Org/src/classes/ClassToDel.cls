@@ -16,7 +16,10 @@ public with sharing class ClassToDel {
 		public static void M2U2(){
 		system.debug('Letscheck'); 
 		system.debug('Commit12 @Anurag');
-		system.debug('Letscheck');      
+		system.debug('Letscheck');
+		system.debug('C1');
+		system.debug('C2');
+		      
 		} 
 		
 		public static void M3U2(){  
